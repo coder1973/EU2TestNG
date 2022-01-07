@@ -13,6 +13,7 @@ public class OpenBrowser {
         // hey webdrivermanager, can you make chrome ready for me for automation
         WebDriverManager.chromedriver().setup();
 
+
         //WebDriver represent the browser
         //we are creating driver for chrome browser
         //new ChromeDriver() >> this part will open chrome browser
