@@ -10,9 +10,10 @@ import org.testng.annotations.Test;
 public class StaleTest extends TestBase {
 
     @Test
-    public void test1(){
+    public void test1() throws InterruptedException {
         driver.get("https://www.google.com");
-
+        WebElement Iagree =  driver.findElement(By.xpath("//div[.='I agree']"));
+        Iagree.click();
         WebElement input = driver.findElement(By.name("q"));
         input.sendKeys("Selenium"+ Keys.ENTER);
 

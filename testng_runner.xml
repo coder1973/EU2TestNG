@@ -2,8 +2,8 @@
 <suite name="Vytrack Automation" verbose="1">
     <test name="Vytrack Smoke Test">
         <classes>
-            <class name="com.cybertek.tests.day16_pom.NegativeLoginTest">
-            </class>
-        </classes>
+            <class name="com.cybertek.tests.day16_pom.NegativeLoginTest"></class>
+
+       </classes>
     </test>
 </suite>

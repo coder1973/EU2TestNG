@@ -33,7 +33,7 @@ public class ExcelUtilsDemo {
         List<Map<String, String>> dataList = qa3short.getDataList();
         System.out.println("dataList.get(0) = " + dataList.get(0));
         System.out.println("dataList.get(2).get(\"firstname\") = " + dataList.get(2).get("firstname"));
-        
+
 
         for (Map<String, String> onerow : dataList) {
             System.out.println(onerow);
